@@ -1,0 +1,48 @@
+.Hero_Container {
+    background-image: url('../assets/Heropage.jpg');
+    background-size: cover; /* This will make the entire image fit within the container */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+    display: flex; /* Use flexbox */
+  align-items: center; /* Align items to the bottom */
+  justify-content: center;
+    
+}
+.text {
+    max-width: 600px; /* Limit the width of the text container */
+    margin: 0 auto; /* Center the text container horizontally */
+    color: blue
+  }
+  
+  .text h1 {
+    font-size: 3.5rem; /* Font size for the heading */
+    margin-bottom: 20px; /* Spacing below the heading */
+    font-family: monospace;
+    color: white;
+   
+  }
+  
+  .text p {
+    font-size: 1.1rem; /* Font size for the paragraph */
+    line-height: 1.6; /* Line height for better readability */
+    font-family: monospace;
+    color: green;
+    font-weight:bold;
+
+  }
+  
+  /* Animation effects */
+  .text {
+    opacity: 0; /* Initially make the text container transparent */
+    transform: translateY(50px); /* Move the text container downwards */
+    animation: slideIn 1s ease forwards; /* Animation for sliding in */
+  }
+  
+  @keyframes slideIn {
+    to {
+      opacity: 1; /* Make the text container fully visible */
+      transform: translateY(0); /* Bring the text container to its original position */
+    }
+  }
