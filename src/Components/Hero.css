@@ -46,3 +46,16 @@
       transform: translateY(0); /* Bring the text container to its original position */
     }
   }
+  @media (max-width: 768px) {
+    .Hero_Container {
+      height: 400px; /* Adjust height for smaller screens */
+    }
+  
+    .text h1 {
+      font-size: 2.5rem; /* Adjust heading font size */
+    }
+  
+    .text p {
+      font-size: 1rem; /* Adjust paragraph font size */
+    }
+  }

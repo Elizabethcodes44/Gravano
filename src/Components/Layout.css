@@ -11,4 +11,14 @@
     width: auto;
     border-radius: 50px;
   }
+  @media screen and (max-width: 768px) {
+    .whatsapp-icon {
+      bottom: 10px; /* Adjust bottom position for smaller screens */
+      right: 10px; /* Adjust right position for smaller screens */
+    }
   
+    .layout-container a img {
+      height: 40px; /* Adjust height for smaller screens */
+      border-radius: 40px; /* Adjust border radius for smaller screens */
+    }
+  }
