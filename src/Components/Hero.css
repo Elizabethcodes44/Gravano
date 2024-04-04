@@ -24,14 +24,7 @@
    
   }
   
-  .text p {
-    font-size: 1.1rem; /* Font size for the paragraph */
-    line-height: 1.6; /* Line height for better readability */
-    font-family: monospace;
-    color: green;
-    font-weight:bold;
-
-  }
+  
   
   /* Animation effects */
   .text {
